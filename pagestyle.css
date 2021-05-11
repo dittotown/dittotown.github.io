@@ -1,0 +1,219 @@
+/* 
+
+NO LICENSE OFFERED -- under exclusive copyright 
+code by -- dittotown 
+
+*/
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#dfcdb7;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
+
+/*navbar*/ 
+
+nav ul {
+    display: flex;
+}
+
+nav{
+    width: 100%;
+    height: auto;
+    position: sticky;
+    top: 0; 
+    background-color:#dfcdb7;
+    z-index: 10;
+}
+nav ul {
+    position: relative;
+    bottom: 0;
+    height: auto;
+    margin: 1% auto 0 5%;
+    padding: 0;
+    background-color:#dfcdb7;
+    justify-content: center;
+}
+
+nav li {
+    padding: 0 2vw 0 2vw;
+    display: inline-block;
+    position: relative; 
+    margin: 0 0.5%;
+    height: auto;
+    transition: 0.1s;
+    background-color:#dfcdb7;
+    align-items: center;
+}
+
+nav li a {
+    text-decoration: none;
+    font-size: 2.5vw;
+    height: auto;
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 0.2em;
+    color: #5d5475;
+}
+
+nav .navtab:hover, 
+nav .active {
+    background-color: #de7561;
+	border-bottom: 8px solid #5d5475;
+    border-width: .5vh;
+}
+
+main {
+    position: relative;
+    background-color: white;
+    border-radius: 15px;
+    font-family: 'Gaegu', cursive;
+    margin: 0 10vw;
+}
+
+.collapsible {
+    background-color: #777;
+    font-family: 'Gaegu', cursive;
+    color: white;
+    cursor: pointer;
+    padding: 1%;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 2vw;
+}
+  
+.active, .collapsible:hover {
+    background-color: #555;
+    height: fit-content;
+}
+  
+.collapsible:after {
+    content: "\25B2";
+    color: white;
+    font-size: 90%;
+    float: right;
+    margin-left: 5px;
+    margin-right: 2%;
+}
+  
+.collapsible.active:after {
+    content: "\25BE";
+}
+  
+.content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+    font-size: 2.5vw;
+}
+
+.tos {
+    margin: 2% 20%; 
+}
+
+h1 {
+    padding-top: 2vh;
+    margin: 0 auto auto auto;
+}
+
+h2 {
+    margin: 1% auto;
+    max-width: 80%;
+    font-size: 3vw;
+}
+
+h3 {
+    font-size: 1.5vw;
+}
+
+.images .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.images .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.images img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.images2 img {
+    width: 30%;
+    min-width: 200px;
+    height: auto;
+    margin: 1vh;
+}
+
+@media screen and (max-width: 600px) {
+    .row {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .images .column {
+        flex: 100%;
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    .images img {
+        margin-top: 8px;
+        vertical-align: middle;
+        width: 100%;
+    }
+}  
+
+.sample {
+    width: 80%;
+    margin: 0 auto !important;
+    font-size: 1em;
+    max-height: 70vh;
+}
+
+@media screen and (max-width: 800px) {
+    .sample {
+        font-size: 10%;
+    }
+} 
+
+.icon {
+    margin: 0 auto; 
+    max-height: 5%;
+    display: inline-block;
+}
+
+.icon img {
+    width: 10%;
+}
+
+.icon h2 {
+    font-size: 100%;
+    margin-bottom: 5%;
+}
+
+.tos ul {
+    padding-left: 2%;
+}
+
+li {
+    text-align: left;
+    font-size: 3vmin;
+}
+
+.prices {
+    margin: 2% 20%; 
+}
