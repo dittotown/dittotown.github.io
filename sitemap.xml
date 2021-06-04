@@ -3,7 +3,8 @@
 
 	<!--Home Page-->
 	<url>
-		<loc>https://dittotown.github.io/</loc>
+		<loc>http://dittotown.github.io/</loc>
 		<changefreq>daily</changefreq>
 		<priority>1.0</priority>
 	</url>
+</urlset>
