@@ -10,7 +10,7 @@ code by -- dittotown
 }
 
 body{
-    background-color:#dfcdb7;
+    background-color:#ffffff;
     height: 100%;
     width: 100%;
     margin: 0;
@@ -28,7 +28,7 @@ nav{
     height: auto;
     position: sticky;
     top: 0; 
-    background-color:#dfcdb7;
+    background-color:#ffffff;
     z-index: 10;
 }
 nav ul {
@@ -37,7 +37,7 @@ nav ul {
     height: auto;
     margin: 1% auto 0 5%;
     padding: 0;
-    background-color:#dfcdb7;
+    background-color:#ffffff;
     justify-content: center;
 }
 
@@ -48,7 +48,7 @@ nav li {
     margin: 0 0.5%;
     height: auto;
     transition: 0.1s;
-    background-color:#dfcdb7;
+    background-color:#ffffff;
     align-items: center;
 }
 
@@ -58,13 +58,13 @@ nav li a {
     height: auto;
     font-family: 'Teko', sans-serif;
     letter-spacing: 0.2em;
-    color: #5d5475;
+    color: #f19833;
 }
 
 nav .navtab:hover, 
 nav .active {
     background-color: #de7561;
-	border-bottom: 8px solid #5d5475;
+	border-bottom: 8px solid #f19833;
     border-width: .5vh;
 }
 
