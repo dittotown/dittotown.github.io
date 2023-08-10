@@ -63,7 +63,7 @@ nav li a {
 
 nav .navtab:hover, 
 nav .active {
-    background-color: #de7561;
+    background-color: #cccccc;
 	border-bottom: 8px solid #f19833;
     border-width: .5vh;
 }
